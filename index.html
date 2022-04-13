@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Laravel</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- font import -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Favicon-->
+        <link rel="icon" href="assets/invoker/img/logo.svg">
+
+        <!-- Custom Stylings -->
+        <link rel="stylesheet" href="assets/invoker/css/styles.css">
+
+    </head>
+    <body>
+        
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-sm navbar-light bg-transparent justify-content-between">
+                    <a class="navbar-brand active large-text" href="#">Invoker</a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav ml-auto mt-2 my-2 text">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#faq">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="jumbotron">
+            <div class="container">
+                <h1 class="display-3">Invoker</h1>
+                <p class="lead">The Laravel Client</p>
+                <p>Invoker is like an admin panel for all your Laravel applications. Open local applications or remote sites, and access Eloquent models plus their relationships without building a GUI.</p>
+                <p>Subscribe for updates and get a notification when we launch version 2.</p>
+                <hr class="my-2">
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#signup" role="button">Subscribe</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="container">
+            <h1 id="features" class="text-center">Features</h1>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Manage Resources</h3>
+                    <p>
+                        View, create, and edit existing resources. Access relations and custom accessors. Filter results by defined scopes.
+                    </p>
+                    <ul>
+                        <li>
+                            <div class="bold">Relationships</div> - Walk across and manage relationships from a user-friendly interface. Work with any type of relations, including polymorphic ones.
+                        </li>
+                        <li>
+                            <div class="bold">Native experience</div> - View and manage data by the appropriate type of field, whether it’s a simple input, date-picker, or dynamic select for a foreign key column.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Run Artisan Commands</h3>
+                    <p>
+                        Automatically detect all artisan commands of your application and run them from a convenient GUI.
+                    </p>
+                    <p>
+                        Add arguments and options as if you would do via the terminal.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Preview Emails</h3>
+                    <p>
+                        Preview emails with real world data directly from your application without sending them.
+                    </p>
+                    <p>
+                        Invoker detects all variables of a Mailable and lets you fill them with real data from your application. This perfectly pairs with our email testing tool HELO.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Powerful Plugin Architecture</h3>
+                    <p>Invoker has a powerful plugin architecture that allows you to build custom functionality into your Invoker client.</p>
+                    <p>You can install plugins globally on your machine or add them to your application so that all Invoker users have access to them in an application via SSH.</p>
+                </div>
+            </div>
+
+            <div class="row mt-4 mb-4 pb-4">
+                <div class="col-md-4 align-middle">
+                    <h3>Some of the features in action:</h3>
+                </div>
+                <div class="col-md-8">
+                    <div id="featureCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">    
+                            <div class="carousel-item active">
+                                <img src="assets/invoker/img/code_runner.png" class="img-fluid" alt="First slide - Invoker Code Runner">
+                            </div>
+    
+                            <div class="carousel-item">
+                                <img src="assets/invoker/img/painless_email.png" class="img-fluid" alt="Second slide - Email features">
+                            </div>
+    
+                            <div class="carousel-item">
+                                <img src="assets/invoker/img/invoker_dashboard.png" class="img-fluid" alt="Third slide - Invoker Dashboard">
+                            </div>
+    
+                            <div class="carousel-item">
+                                <img src="assets/invoker/img/plugin_play.png" class="img-fluid" alt="Forth slide - Plugin Capabilities">
+                            </div>
+    
+                            <div class="carousel-item">
+                                <img src="assets/invoker/img/help_yourself.png" class="img-fluid" alt="Fifth Slide - Easy to use UI">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prevfeatureCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-nextfeatureCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+        <section class="container">
+            <h1 id="faq" class="text-center">FAQ</h1>
+            <ul>
+                <div class="row">
+                    <div class="col-md-3">
+                        <li>
+                            <div class="bold">Is Invoker safe to use for non-tech users?</div>
+                            <ul>
+                                <li>Invoker gives you full access to the application. Please use Laravel Nova to build a secure admin panel for users of your application.</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="col-md-3">
+                        <li>
+                            <div class="bold">Is Invoker a replacement for an admin interface?</div>
+                            <ul>
+                                <li>Invoker can be used by developers with technical knowledge, but we recommend using Laravel Nova to build a rich interface for your users.</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="col-md-3">
+                        <li>
+                            <div class="bold">Is any third-party software required?</div>
+                            <ul>
+                                <li>Invoker only requires locally installed PHP of any version above 7.2.5. It works perfectly with newest PHP 7.4.</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="col-md-3">
+                        <li>
+                            <div class="bold">What platforms are supported?</div>
+                            <ul>
+                                <li>Invoker runs on macOS, Windows and Linux. We focus on Debian derivatives and can't guarantee others.</li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+                <div class="row mt-md-4">
+                    <div class="col-md-3"> 
+                        <li>
+                            <div class="bold">Why does it only work with Laravel?</div>
+                            <ul>
+                                <li>Invoker uses the magic of Eloquent ORM, so it only supports Laravel.</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="col-md-3">
+                        <li>
+                            <div class="bold">What Laravel versions are supported?</div>
+                            <ul>
+                                <li>Invoker supports Laravel 5.6+ and above. We highly recommend to always upgrade to the latest version of Laravel.</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="col-md-3">
+                        <li>
+                            <div class="bold">I have bought version 1, do need to buy version 2?</div>
+                            <ul>
+                                <li>Absolutely not! We migrate your license to version 2 and even add one year of free updates starting at the launch day free of charge.</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="col-md-3">
+                        <li>
+                            <div class="bold">Where do I download version 1?</div>
+                            <ul>
+                                <li>We don't have an official download link for the legacy version at the moment. If you have to download version 1 again, please send us an email with your license key to support@beyondco.de.</li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+
+            <hr>
+        </section>
+
+        <section class="container">
+            <h1 id="signup" class="text-center">Signup</h1>
+            <form>
+                <div class="form-group">
+                  <label for="emailEntry"></label>
+                  <input type="email" class="form-control" name="emailEntry" id="emailEntry" aria-describedby="emailHelpId" placeholder="Enter your email here...">
+                  <small id="emailHelpId" class="form-text text-muted">Enter your email to recieve notifications from us</small>
+
+                  <button type="button" class="btn btn-dark mt-md-4">Submit</button>
+                </div>
+            </form>
+            <hr>
+        </section>
+
+        <footer class="bg-dark text-center short">
+            <a href="#top" class="top-btn"><img src="assets/invoker/img/logo.svg" class="img-fluid img-smaller m-md-4"></a>
+        </footer>
+        
+        <!-- Bootstrap Required JS-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
